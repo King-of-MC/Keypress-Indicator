@@ -37,6 +37,7 @@ function my_keydown(e)
 	else {
 		otherkey();
 		document.getElementById("d1").innerHTML="You pressed symbol or other key";
+		console.log("you pressed any other key");
 	}
 }
 
